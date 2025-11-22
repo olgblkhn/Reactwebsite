@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background: #05070d;
+  color: #f3f6ff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
