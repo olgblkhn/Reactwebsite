@@ -1,12 +1,12 @@
-body {
-  margin: 0;
-  background: #05070d;
-  color: #f3f6ff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  scroll-behavior: smooth;
-}
-
 * {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope', 'Segoe UI', 'Helvetica Neue', sans-serif;
+  background: #05080d;
+  color: #e7ecf5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
