@@ -1,4 +1,5 @@
 import './App.css';
+import logo from './images/aterraLogo.png';
 
 const navItems = [
   { label: 'Главная', href: '#home' },
@@ -55,10 +56,14 @@ function App() {
         <section className="hero" id="home">
           <div className="hero__overlay" />
           <div className="hero__content">
-            <div className="hero__badge">AT Group</div>
-            <h1>
-              Инжиниринговые услуги <br /> для нефтегазовой отрасли
-            </h1>
+            <div className="hero__logo">
+              {/* Замените следующую строку на <img src="/путь/к/логотипу.png" alt="Логотип" /> */}
+              <img src={logo} alt="Логотип" />
+            </div>
+            <div className="hero__badge">
+              Инжиниринговые услуги <br />
+              для нефтегазовой отрасли
+            </div>
             <p className="lead">
               Снижение рисков и повышение эффективности бурения и капитального ремонта скважин
             </p>
@@ -69,7 +74,7 @@ function App() {
               </a>
             </div>
           </div>
-          <p className="hero__ghost">СИЛА РУССКОЙ ЗЕМЛИ</p>
+          <p className="hero__ghost">СИЛА <br />РУССКОЙ <br />ЗЕМЛИ</p>
         </section>
 
         <section className="metrics" id="metrics">
